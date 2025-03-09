@@ -5,7 +5,8 @@ project(rtc_client)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Python 3.10 EXACT REQUIRED COMPONENTS Interpreter Development)
+#find_package(Python 3.10 EXACT REQUIRED COMPONENTS Interpreter DeveloEpment)
+find_package(Python 3.10 REQUIRED COMPONENTS Interpreter Development)
 # 找到 pybind11
 set(pybind11_DIR "/usr/local/lib/python3.10/site-packages/pybind11/share/cmake/pybind11")
 find_package(pybind11 REQUIRED)
